@@ -1,4 +1,4 @@
-package az.projects.engelleriasaq;
+package az.projects.engelleriasaq.ders1;
 
 /**
  *
