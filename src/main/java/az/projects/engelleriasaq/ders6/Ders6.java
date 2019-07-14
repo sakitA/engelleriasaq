@@ -12,12 +12,30 @@ package az.projects.engelleriasaq.ders6;
 public class Ders6 {
     
     public static void main(String[] args) {
-        Operator operator = new Bakcell();
-        printInfo(operator);
+        Operator bakcell = new Bakcell();
+       
+        bakcell.sendSms();
         
-        operator.sendSms();
+        printInfo(bakcell);
+
+        Operator azercell = new Azercell();
+       
+        azercell.sendSms();
         
-        printInfo(operator);
+        printInfo(azercell);
+        
+        
+        Operator nar = new nar();
+       
+        nar.sendSms();
+        
+        printInfo(nar);
+        
+        Operator nar1 = new Nar_Mobile();
+       
+        nar1.sendSms();
+        
+        printInfo(nar1);
     }
     
     

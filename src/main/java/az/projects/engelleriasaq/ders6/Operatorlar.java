@@ -11,6 +11,7 @@ package az.projects.engelleriasaq.ders6;
  */
 public enum Operatorlar {
     AZERCELL,
-    BAKCELL
+    BAKCELL,
+    NAR
     
 }

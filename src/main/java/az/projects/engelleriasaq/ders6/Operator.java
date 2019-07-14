@@ -11,7 +11,7 @@ package az.projects.engelleriasaq.ders6;
  */
 public abstract class Operator implements SmsGonder{
     private Operatorlar operator;
-    protected int counter;
+    protected static int counter;
     double balance;
 
     public Operator(){

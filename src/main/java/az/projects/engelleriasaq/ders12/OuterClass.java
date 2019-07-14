@@ -9,14 +9,9 @@ package az.projects.engelleriasaq.ders12;
  *
  * @author sanco
  */
-public class InnerClass {
-    
-    public static void main(String[] args) {
-        
-    }
-    
-    
-    class A{
+public class OuterClass {
+
+     class InnerClass1{
         int a;
 
         public int getA() {
@@ -28,7 +23,7 @@ public class InnerClass {
         }
     }
     
-    class B{
+    class InnerClass2{
         int b;
 
         public int getB() {
